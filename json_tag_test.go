@@ -21,7 +21,7 @@ func TestJSONTag(t *testing.T) {
 
 	bytes, _ := json.Marshal(product)
 	fmt.Println(string(bytes))
-}``
+}
 
 func TestJSONTagDecode(t *testing.T) {
 	jsonString := `{"id":"1","name":"Rumah","image_url":"https://www.google.com"}`
